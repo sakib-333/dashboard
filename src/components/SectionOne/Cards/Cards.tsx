@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const Cards = () => {
   return (
-    <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 gap-4 max-w-[820px] w-full">
+    <div className="grid grid-cols-1 mt-6 sm:mt-8 md:mt-10 lg:mt-12 justify-items-center md:grid-cols-2 gap-4 max-w-[820px] w-full">
       <div className="max-w-[406px] hover:cursor-pointer flex items-center w-full bg-[#242424] hover:bg-[#292929] transition p-4 rounded-[20px]">
         <img src={dragAndDrop} alt="dragAndDrop" />
         <h1>Drag & drop local files here, or click to select</h1>

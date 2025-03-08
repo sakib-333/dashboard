@@ -7,7 +7,7 @@ import Popup from "./Popup/Popup";
 
 const SectionOne = () => {
   return (
-    <div className="min-h-screen bg-[#2B2B2B]">
+    <div className="min-h-screen p-4 w-full flex flex-col items-center gap-2 bg-[#2B2B2B]">
       <Popup />
       <Heading />
       <Paragraph />

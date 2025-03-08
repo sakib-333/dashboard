@@ -21,7 +21,7 @@ const Buttons = () => {
       <h1 className="font-bold">Or</h1>
       <Button
         variant="outline"
-        className="max-w-[240px] w-full cursor-pointer h-[60px] rounded-[56px] bg-[#FB9937] hover:bg-[#2b2b2b] hover:text-white"
+        className="max-w-[240px] w-full border-none cursor-pointer h-[60px] rounded-[56px] bg-[#FB9937] hover:bg-[#2b2b2b] hover:text-white"
       >
         <img src={stars} alt="stars" />
         Start with Deep Dive

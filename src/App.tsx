@@ -1,12 +1,21 @@
+import AppSidebar from "./components/AppSidebar/AppSidebar";
 import SectionOne from "./components/SectionOne/SectionOne";
+import { SidebarProvider, SidebarTrigger } from "./components/ui/sidebar";
 
 const App = () => {
   return (
-    <div className="min-h-screen text-white">
-      <div>
+    <SidebarProvider className="min-h-screen bg-black text-white">
+      <AppSidebar />
+      <main className="w-full relative">
+        <SidebarTrigger className="absolute z-10" />
         <SectionOne />
-      </div>
-    </div>
+      </main>
+    </SidebarProvider>
+    // <div className="min-h-screen text-white">
+    //   <div>
+    //     <SectionOne />
+    //   </div>
+    // </div>
   );
 };
 

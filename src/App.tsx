@@ -1,10 +1,11 @@
-import { Button } from "./components/ui/button";
+import SectionOne from "./components/SectionOne/SectionOne";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold bg-sky-500">Hello React</h1>
-      <Button>Click</Button>
+    <div className="min-h-screen text-white">
+      <div>
+        <SectionOne />
+      </div>
     </div>
   );
 };

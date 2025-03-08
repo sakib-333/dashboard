@@ -1,3 +1,4 @@
+import Cards from "./Cards/Cards";
 import Heading from "./Heading/Heading";
 import Paragraph from "./Paragraph/Paragraph";
 import Popup from "./Popup/Popup";
@@ -8,6 +9,7 @@ const SectionOne = () => {
       <Popup />
       <Heading />
       <Paragraph />
+      <Cards />
     </div>
   );
 };

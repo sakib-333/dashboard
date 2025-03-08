@@ -1,3 +1,4 @@
+import Buttons from "./Buttons/Buttons";
 import Cards from "./Cards/Cards";
 import Heading from "./Heading/Heading";
 import OptionalSection from "./OptionalSection/OptionalSection";
@@ -12,6 +13,7 @@ const SectionOne = () => {
       <Paragraph />
       <Cards />
       <OptionalSection />
+      <Buttons />
     </div>
   );
 };
